@@ -11,4 +11,4 @@ The attached code splits the database into a training set and a test set (0.75 /
 Suspicious zero values in X variables are replaced with median values or predicted values using SVR. </p>
 Models created in order to predict Y (Outcome) are: XGBoost, Random Forest, SVM, Artificial Neural Network. </p>
 Few hyperparameters combinations were tested, attached code contains best ones. </p>
-Best accuracy was achieved by Random Forest (75% accuracy on test set) - model was built using 128 tress with max depth 3. </p>
+Best accuracy was achieved by Random Forest (77% accuracy on test set) - model was built using 128 tress with max depth 3. </p>
